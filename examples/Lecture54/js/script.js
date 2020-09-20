@@ -22,6 +22,10 @@ document.addEventListener("DOMContentLoaded",
             .querySelector("h1")
             .textContent = title;
       }
+      if(name==="Usman"||name==="usman")
+      {
+        document.querySelector("#title").textContent="HEY BOSS";
+      }
     }
 
     // Unobtrusive event binding
